@@ -8,8 +8,9 @@ function Chat({ws,username}){
             ws.send(data);
         }
         let date=new Date();
-        if(message===""){
+        if(message.trim()===""){
             alert("cannot send empty message");
+            setMessage("");
         }
         else{
         const userData={user:username,message:message,key:count,time:date.toLocaleTimeString()};

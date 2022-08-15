@@ -9,7 +9,6 @@ const wss= new WebSocket.Server({
 wss.on('connection',function (ws){
     console.log("a user connected");
     ws.on('message',function(data){
-        console.log(data.toString());
         wss.clients.forEach(function each(client){
             if(client.readyState=WebSocket.OPEN){
                 client.send(data.toString());
