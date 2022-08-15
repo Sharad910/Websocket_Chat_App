@@ -28,7 +28,7 @@ function Chat({ws,username}){
         console.log(obj);
         setMessageList((list)=>[...list,obj]);
     }
-    },[]);
+    },[ws]);
     useEffect(()=>{
         bottomRef.current?.scrollIntoView({behavior:'smooth'});
     },[messageList]);
