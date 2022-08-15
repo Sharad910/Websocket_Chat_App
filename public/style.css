@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(240, 240, 240);
+}
+
+#container{
+    background-image: linear-gradient(rgb(170, 88, 88),rgb(234, 223, 102));
+    height: 80vh;
+    width: 80vw;
+    border: solid;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    flex:1;
+}
+
+#chatForm{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80vw;
+    border: solid rgb(58, 57, 57);
+    border-width: 1px;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#chatInput{
+    display: flex;
+    flex-grow: 1;
+    font-size: medium;
+}
+
+.msg{
+    background-color: white;
+    text-align: left;
+    height:fit-content;
+    border: 1px solid rgb(80, 80, 80);
+    margin-bottom: 3px;
+    padding-left: 5px;
+}
+
+#msgContainer{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+#loginContainer{
+    margin: auto;
+    width: 70vw;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#loginForm{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+#profileImg{
+    height: 325px;
+    border:solid black 1px;
+    border-radius: 50%;
+}
+
+#loginInput{
+    display: flex;
+    flex-grow: 1;
+    height: 30px;
+    font-size: medium;
+    border-radius: 10px;
+    border: solid rgb(5, 67, 27) 1px
+}
+
+#loginButton{
+    width: 185px;
+    align-self: center;
+    border-radius: 10px;
+    border: solid rgb(5, 67, 27) 1px;
+    height: 22px;
+    cursor: pointer;
+}
+#loginButton:hover {background-color: #48a94b}
+
+p{
+    margin-top: 0%;
+    padding-left: 10px;
+}
+
+hr{
+    margin: 0%;
+}
+
+#userName{
+    font-size: larger;
+
+}
+
+h1{
+    position:relative;
+    background-clip:text;
+}
