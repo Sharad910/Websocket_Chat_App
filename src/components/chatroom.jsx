@@ -40,9 +40,11 @@ function Chat({ws,username}){
     function usersMessage(event){
         setMessage(event.target.value);
     }
-    return(<div>
+    return(<div id="outerContainer">
+        <h1>Chatroom:global</h1>
         
         <div id="container"> 
+        
         <div id="msgContainer">
             {messageList.map((messContent)=>{
                 return(<div key={messContent.key} className="msg"><b> {messContent.user}</b><span> on {messContent.time}</span><hr></hr><p>{messContent.message}</p></div>);
