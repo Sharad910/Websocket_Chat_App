@@ -15,10 +15,7 @@ wss.on('connection',function (ws){
             }
         })
     })
-    ws.on('sent',function(mess){
-        console.log(mess);
-    })
     ws.on('close',function(){
-        console.log("client disconnected");
+        console.log("user disconnected");
     })
 })
