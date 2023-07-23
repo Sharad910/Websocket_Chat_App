@@ -109,7 +109,7 @@ let handleSubmit=(e)=>{
               <Stack>
                 <Input value={userName} name="user" onChange={handleChange} isRequired placeholder="Enter Your Username Here" />
                 <Button bgColor={"#FFD0D0"} type="submit">
-                  Submit
+                  Join!
                 </Button>
               </Stack>
             </FormControl>
