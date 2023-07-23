@@ -117,10 +117,10 @@ export default function ChatPage() {
           >
             SERVER
           </Text>
-          <Text align={'center'}>
+          <Text align={'center'} fontWeight={'bold'} fontSize={'2xl'}>
             Your Username:
           </Text>
-          <Text align={'center'}>{userName}</Text>
+          <Text align={'center'} fontWeight={'bold'} fontSize={'2xl'}>{userName}</Text>
         </Box>
       </Flex>
       <Flex

@@ -67,7 +67,22 @@ let handleSubmit=(e)=>{
               w={"95%"}
               borderRadius={"1rem"}
               bgColor={"#FFD0D0"}
-            ></Box>
+            >
+              <Flex direction={'column'} h={'100%'} w={'100%'} justify={'flex-end'} px={'1rem'} py={'1rem'} align={'flex-start'} gap={'1rem'}>
+                <Box bg={"#FF9EAA"} h={'5rem'} w={'17rem'} borderRadius={'1rem'}>
+                  <Text></Text>
+                </Box>
+                <Box bg={"#FF9EAA"} h={'5rem'} w={'17rem'} borderRadius={'1rem'}>
+                  
+                </Box>
+                <Box bg={"#FF9EAA"} h={'5rem'} w={'17rem'} borderRadius={'1rem'}>
+                  
+                </Box>
+                <Box bg={"#FF9EAA"} h={'5rem'} w={'17rem'} borderRadius={'1rem'}>
+                  
+                </Box>
+              </Flex>
+            </Box>
             <InputGroup w={'90%'} borderColor={'blue.300'} >
               <Input
                 isReadOnly
